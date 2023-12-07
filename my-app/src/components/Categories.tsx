@@ -8,8 +8,8 @@ export const arrowRightImg = arrowRight
 export function Categories(){
     return(
         <div className="flex flex-col bg-white p-20">
-            <div className="flex flex-row justify-between mb-6">
-                <h1 className="text-5xl">Featured art categories</h1>
+            <div className="flex flex-row justify-between mb-6 px-20">
+                <h1 className="text-4xl font-bold">Featured art categories</h1>
                 <a className="flex flex-row gap-4 text-blue-600 font-medium items-center">View All Categories<img src={arrowRight}/></a>
             </div>
             <div className='flex flex-row gap-6 justify-center'>
