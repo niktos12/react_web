@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useEffect , useState} from "react";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -27,11 +27,15 @@ export default function SimpleSlider() {
             spaceBetween={50}
             loop={true}
             grabCursor={true}
+            style={{
+                transition: 'transform 0.5s ease',
+                width: '100%',
+            }}
             navigation={{
                 nextEl: '.swiper-button-next',
             }}
         >
-            <SwiperSlide className="bg-white">
+            <SwiperSlide className="bg-white" style={{ width: '25%' }}>
                 <img src={flowerFirst} className="rounded-t-lg"></img>
                     <div className="flex flex-row p-4 items-start gap-2">
                         <img src={userFirst} className="rounded-full"></img>
@@ -42,7 +46,7 @@ export default function SimpleSlider() {
                     </div>
 
             </SwiperSlide>
-            <SwiperSlide className="bg-white">
+            <SwiperSlide className="bg-white" style={{ width: '25%' }}>
                 <img src={flowerSecond} className="rounded-t-lg"></img>
                 <div className="flex flex-row p-4 items-start gap-2">
                         <img src={userSecond} className="rounded-full"></img>
@@ -52,7 +56,7 @@ export default function SimpleSlider() {
                     </div>
                     </div>
             </SwiperSlide>
-            <SwiperSlide className="bg-white">
+            <SwiperSlide className="bg-white" style={{ width: '25%' }}>
                 <img src={flowerThird} className="rounded-t-lg"></img>
                 <div className="flex flex-row p-4 items-start gap-2">
                         <img src={userThird} className="rounded-full"></img>
@@ -62,7 +66,7 @@ export default function SimpleSlider() {
                     </div>
                     </div>
             </SwiperSlide>
-            <SwiperSlide className="bg-white">
+            <SwiperSlide className="bg-white" style={{ width: '25%' }}>
                 <img src={flowerFourth} className="rounded-t-lg"></img>
                 <div className="flex flex-row p-4 items-start gap-2">
                         <img src={userFourth} className="rounded-full"></img>
@@ -72,7 +76,7 @@ export default function SimpleSlider() {
                     </div>
                     </div>
             </SwiperSlide>
-            <SwiperSlide className="bg-white">
+            <SwiperSlide className="bg-white" style={{ width: '25%' }}>
                 <img src={flowerFifth} className="rounded-t-lg"></img>
                 <div className="flex flex-row p-4 items-start gap-2">
                         <img src={userFifth} className="rounded-full"></img>
@@ -84,5 +88,6 @@ export default function SimpleSlider() {
             </SwiperSlide>
             <SwapBtn/>
         </Swiper>
+        
     );
 }
