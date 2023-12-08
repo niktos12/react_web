@@ -1,7 +1,5 @@
 import { arrowRightImg } from "./Categories"
-import { MySlider } from "./Slider"
 import  SimpleSlider  from "./SimpleSlider"
-import Slider from "react-slick"
 export function Masterpiece(){
     return (
         <div className="flex flex-col bg-gray-100 p-20">
