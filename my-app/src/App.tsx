@@ -5,6 +5,7 @@ import { Partners } from './components/Partners';
 import { Categories } from './components/Categories';
 import { Masterpiece } from './components/Masterpiece';
 import { Services } from './components/Services';
+import { Solutions } from './components/Solutions';
 function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ function App() {
       <Categories />
       <Masterpiece />
       <Services />
+      <Solutions/>
     </div>
     
     

@@ -34,7 +34,7 @@ export function Services(){
                     <p className="text-xl font-medium text-gray-900">Cras auctor</p>
                 </div>
             </div>
-            <button className="border-2 bg-rose-700 text-white text-xl py-3 px-6 rounded">Find Services</button>
+            <button className="border-2 bg-rose-700 text-white text-xl py-3 px-6 rounded border-rose-700">Find Services</button>
         </div>
     );
 }
