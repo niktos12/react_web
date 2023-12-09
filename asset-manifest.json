@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/niktos12/react_web/static/css/main.9e1f27d8.css",
+    "main.js": "/niktos12/react_web/static/js/main.ce40a24f.js",
+    "static/js/787.d4aba7ab.chunk.js": "/niktos12/react_web/static/js/787.d4aba7ab.chunk.js",
+    "static/media/camel.png": "/niktos12/react_web/static/media/camel.cee4af1cea7d67f60dae.png",
+    "static/media/euforia.png": "/niktos12/react_web/static/media/euforia.0c87623945ebbf277241.png",
+    "static/media/Video.png": "/niktos12/react_web/static/media/Video.17b2f3d1fe5728d75a0e.png",
+    "static/media/woman.png": "/niktos12/react_web/static/media/woman.9fa192fc0227e04c0ba0.png",
+    "static/media/solut.png": "/niktos12/react_web/static/media/solut.72bac1127e01a494e888.png",
+    "static/media/flower-2.png": "/niktos12/react_web/static/media/flower-2.f8e903a08f0f8dd2ea19.png",
+    "static/media/flower-4.png": "/niktos12/react_web/static/media/flower-4.3da967ad3f791e2127aa.png",
+    "static/media/event_3.png": "/niktos12/react_web/static/media/event_3.650412773b9546ed961c.png",
+    "static/media/event_2.png": "/niktos12/react_web/static/media/event_2.5d9520e72bdc5351f97c.png",
+    "static/media/event_1.png": "/niktos12/react_web/static/media/event_1.c8cf2bb98449cd1bab6f.png",
+    "static/media/flower-1.png": "/niktos12/react_web/static/media/flower-1.cfe6a62c3a62bb6f4196.png",
+    "static/media/sculpture.png": "/niktos12/react_web/static/media/sculpture.553a2c8fddf7152a1150.png",
+    "static/media/clock.png": "/niktos12/react_web/static/media/clock.443138f10f62e8e1eca3.png",
+    "static/media/flower-3.png": "/niktos12/react_web/static/media/flower-3.f9af80c6f26297892017.png",
+    "static/media/vases.png": "/niktos12/react_web/static/media/vases.0dd5511972724e8167fc.png",
+    "static/media/flower-5.png": "/niktos12/react_web/static/media/flower-5.74e2bc037f18b174a2e6.png",
+    "index.html": "/niktos12/react_web/index.html",
+    "main.9e1f27d8.css.map": "/niktos12/react_web/static/css/main.9e1f27d8.css.map",
+    "main.ce40a24f.js.map": "/niktos12/react_web/static/js/main.ce40a24f.js.map",
+    "787.d4aba7ab.chunk.js.map": "/niktos12/react_web/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e1f27d8.css",
+    "static/js/main.ce40a24f.js"
+  ]
+}
