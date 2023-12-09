@@ -3,10 +3,21 @@
 @import 'tailwindcss/utilities';
 .swiper-slide{
     width: 300px !important;
+    transition: opacity 0.5s;
 }
 .swiper{
     width: 100%;
 }
 body{
     font-family: 'Roboto',sans-serif;
+}
+.changed-width{
+    width: 100% !important;
+    display: flex !important;
+}
+.change-pad{
+    padding: 80px !important;
+}
+.swiper-slide.swiper-slide-active{
+    opacity: 1 !important;
 }
