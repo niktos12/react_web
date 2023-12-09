@@ -16,7 +16,7 @@ import userFourth from "../img/user_4.png"
 function NextBtn(){
     const swiper = useSwiper();
     return (
-        <button className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full p-4 mr-20 shadow"
+        <button className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full p-4 mr-20 shadow m-fix"
         onClick={()=> {
             swiper.params.speed = 600;
             swiper.slideNext();
@@ -44,46 +44,78 @@ export function Catalogs(){
                 <button className="py-2 px-4 rounded-lg border-2 border-white text-xl text-white font-medium">Explore Xinder</button>
             </div>
             <Swiper
-            slidesPerView={3}
-            spaceBetween={50}
+            slidesPerView={3.5}
+            spaceBetween={24}
             centeredSlides={true}
             loop={true}
             grabCursor={true}
+            threshold={10}
+            centeredSlidesBounds={true}
+            breakpoints={{
+                320: {
+                    slidesPerView: 1.5,
+                },
+                640: {
+                    slidesPerView: 2.5,
+                },
+                1024: {
+                    slidesPerView: 2.5,
+                },
+
+            }}
             >
-                <SwiperSlide style={{opacity: 0.5}}>
+                <SwiperSlide style={{opacity: 0.5}} className="rounded-2xl">
                     <div className="flex flex-col">
-                        <img src={flowerFirst}></img>
-                        <div className="bg-white flex flex-row p-4">
-                            <img src={userFirst} className="w-6 h-6"></img>
-                            <p className=""></p>
+                        <img src={flowerFourth}></img>
+                        <div className="bg-white flex flex-row p-4 gap-2 items-center">
+                            <img src={userFourth} className="w-6 h-6"></img>
+                            <p className="">Colourful face</p>
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide style={{opacity: 0.5}}>
+                <SwiperSlide style={{opacity: 0.5}} className="rounded-2xl">
+                    <div className="flex flex-col">
+                        <img src={flowerFirst}></img>
+                        <div className="bg-white flex flex-row p-4 gap-2 items-center">
+                            <img src={userFirst} className="w-6 h-6"></img>
+                            <p className="">Flower Decorations</p>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide style={{opacity: 0.5}} className="rounded-2xl">
                     <div className="flex flex-col">
                         <img src={flowerSecond}></img>
-                        <div className="bg-white flex flex-row p-4">
+                        <div className="bg-white flex flex-row p-4 gap-2 items-center">
                             <img src={userSecond} className="w-6 h-6"></img>
-                            <p className=""></p>
+                            <p className="">Flower Decorations</p>
                         </div>
                     </div>
                     </SwiperSlide>             
-                <SwiperSlide style={{opacity: 0.5}}>
+                <SwiperSlide style={{opacity: 0.5}} className="rounded-2xl">
                     <div className="flex flex-col">
                         <img src={flowerThird}></img>
-                        <div className="bg-white flex flex-row p-4">
+                        <div className="bg-white flex flex-row p-4 gap-2 items-center">
                             <img src={userThird} className="w-6 h-6"></img>
-                            <p className=""></p>
+                            <p className="">Splash</p>
                         </div>
                     </div>
 
                 </SwiperSlide>
-                <SwiperSlide style={{opacity: 0.5}}>
+                <SwiperSlide style={{opacity: 0.5}} className="rounded-2xl">
+                    <div className="flex flex-col">
+                        <img src={flowerFirst}></img>
+                        <div className="bg-white flex flex-row p-4 gap-2 items-center">
+                            <img src={userFirst} className="w-6 h-6"></img>
+                            <p className="">Flower Decorations</p>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide style={{opacity: 0.5}} className="rounded-2xl">
                     <div className="flex flex-col">
                         <img src={flowerFourth}></img>
-                        <div className="bg-white flex flex-row p-4">
+                        <div className="bg-white flex flex-row p-4 gap-2 items-center">
                             <img src={userFourth} className="w-6 h-6"></img>
-                            <p className=""></p>
+                            <p className="">Colourful face</p>
                         </div>
                     </div>
                 </SwiperSlide>

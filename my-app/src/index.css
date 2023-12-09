@@ -21,3 +21,9 @@ body{
 .swiper-slide.swiper-slide-active{
     opacity: 1 !important;
 }
+@media (max-width: 1455px) {
+    .m-fix{
+        margin-right: 40px;
+    }
+    
+}

@@ -8,6 +8,7 @@ import { Services } from './components/Services';
 import { Solutions } from './components/Solutions';
 import { Reviews } from './components/Reviews';
 import { Catalogs } from './components/Catalogs';
+import { ArtEvents } from './components/ArtEvents';
 function App() {
   return (
     <div>
@@ -20,6 +21,7 @@ function App() {
       <Solutions/>
       <Reviews/>
       <Catalogs/>
+      <ArtEvents/>
     </div>
     
     
