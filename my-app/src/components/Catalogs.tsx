@@ -64,56 +64,56 @@ export function Catalogs(){
 
             }}
             >
-                <SwiperSlide style={{opacity: 0.5}} className="rounded-2xl">
+                <SwiperSlide style={{opacity: 0.5}} className="rounded-lg border">
                     <div className="flex flex-col">
-                        <img src={flowerFourth}></img>
-                        <div className="bg-white flex flex-row p-4 gap-2 items-center">
+                        <img src={flowerFourth} className="rounded-t-lg"></img>
+                        <div className="bg-white flex flex-row p-4 gap-2 items-center rounded-b-lg">
                             <img src={userFourth} className="w-6 h-6"></img>
                             <p className="">Colourful face</p>
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide style={{opacity: 0.5}} className="rounded-2xl">
+                <SwiperSlide style={{opacity: 0.5}} className="rounded-lg border">
                     <div className="flex flex-col">
-                        <img src={flowerFirst}></img>
-                        <div className="bg-white flex flex-row p-4 gap-2 items-center">
+                        <img src={flowerFirst} className="rounded-t-lg"></img>
+                        <div className="bg-white flex flex-row p-4 gap-2 items-center rounded-b-lg">
                             <img src={userFirst} className="w-6 h-6"></img>
                             <p className="">Flower Decorations</p>
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide style={{opacity: 0.5}} className="rounded-2xl">
+                <SwiperSlide style={{opacity: 0.5}} className="rounded-lg border">
                     <div className="flex flex-col">
-                        <img src={flowerSecond}></img>
-                        <div className="bg-white flex flex-row p-4 gap-2 items-center">
+                        <img src={flowerSecond} className="rounded-t-lg"></img>
+                        <div className="bg-white flex flex-row p-4 gap-2 items-center rounded-b-lg">
                             <img src={userSecond} className="w-6 h-6"></img>
                             <p className="">Flower Decorations</p>
                         </div>
                     </div>
                     </SwiperSlide>             
-                <SwiperSlide style={{opacity: 0.5}} className="rounded-2xl">
+                <SwiperSlide style={{opacity: 0.5}} className="rounded-lg border">
                     <div className="flex flex-col">
-                        <img src={flowerThird}></img>
-                        <div className="bg-white flex flex-row p-4 gap-2 items-center">
+                        <img src={flowerThird} className="rounded-t-lg"></img>
+                        <div className="bg-white flex flex-row p-4 gap-2 items-center rounded-b-lg">
                             <img src={userThird} className="w-6 h-6"></img>
                             <p className="">Splash</p>
                         </div>
                     </div>
 
                 </SwiperSlide>
-                <SwiperSlide style={{opacity: 0.5}} className="rounded-2xl">
+                <SwiperSlide style={{opacity: 0.5}} className="rounded-lg border">
                     <div className="flex flex-col">
-                        <img src={flowerFirst}></img>
-                        <div className="bg-white flex flex-row p-4 gap-2 items-center">
+                        <img src={flowerFirst} className="rounded-t-lg"></img>
+                        <div className="bg-white flex flex-row p-4 gap-2 items-center rounded-b-lg">
                             <img src={userFirst} className="w-6 h-6"></img>
                             <p className="">Flower Decorations</p>
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide style={{opacity: 0.5}} className="rounded-2xl">
+                <SwiperSlide style={{opacity: 0.5}} className="rounded-lg border">
                     <div className="flex flex-col">
-                        <img src={flowerFourth}></img>
-                        <div className="bg-white flex flex-row p-4 gap-2 items-center">
+                        <img src={flowerFourth} className="rounded-t-lg"></img>
+                        <div className="bg-white flex flex-row p-4 gap-2 items-center rounded-b-lg">
                             <img src={userFourth} className="w-6 h-6"></img>
                             <p className="">Colourful face</p>
                         </div>

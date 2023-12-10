@@ -9,7 +9,7 @@ export function ArtEvents(){
                 <h1 className="text-4xl font-bold text-gray-900">Art events</h1>
                 <a className="text-blue-600 flex flex-row items-center text-base font-medium gap-4">Explore All Events<img src={arrowRightImg}></img></a>
             </div>
-            <div className="flex flex-row gap-6">
+            <div className="flex flex-row gap-6 justify-center">
                 <div className="flex flex-col">
                     <img src={FirstEvent}></img>
                     <h2 className="text-2xl font-bold text-gray-900 mt-6 mb-2">Wild Horse Event</h2>
