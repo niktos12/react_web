@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_web/static/css/main.cbc6054f.css",
-    "main.js": "/react_web/static/js/main.ee915cc3.js",
+    "main.css": "/react_web/static/css/main.b583c9b8.css",
+    "main.js": "/react_web/static/js/main.8e83a275.js",
     "static/js/787.d4aba7ab.chunk.js": "/react_web/static/js/787.d4aba7ab.chunk.js",
     "static/media/camel.png": "/react_web/static/media/camel.cee4af1cea7d67f60dae.png",
     "static/media/euforia.png": "/react_web/static/media/euforia.0c87623945ebbf277241.png",
@@ -21,12 +21,12 @@
     "static/media/vases.png": "/react_web/static/media/vases.0dd5511972724e8167fc.png",
     "static/media/flower-5.png": "/react_web/static/media/flower-5.74e2bc037f18b174a2e6.png",
     "index.html": "/react_web/index.html",
-    "main.cbc6054f.css.map": "/react_web/static/css/main.cbc6054f.css.map",
-    "main.ee915cc3.js.map": "/react_web/static/js/main.ee915cc3.js.map",
+    "main.b583c9b8.css.map": "/react_web/static/css/main.b583c9b8.css.map",
+    "main.8e83a275.js.map": "/react_web/static/js/main.8e83a275.js.map",
     "787.d4aba7ab.chunk.js.map": "/react_web/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbc6054f.css",
-    "static/js/main.ee915cc3.js"
+    "static/css/main.b583c9b8.css",
+    "static/js/main.8e83a275.js"
   ]
 }
