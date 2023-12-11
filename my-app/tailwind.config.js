@@ -13,10 +13,10 @@ module.exports = {
       'lg': {'min': '1024px', 'max': '1279px'},
       // => @media (min-width: 1024px and max-width: 1279px) { ... }
 
-      'xl': {'min': '1280px', 'max': '1440px'},
+      'xl': {'min': '1280px', 'max': '1439px'},
       // => @media (min-width: 1280px and max-width: 1535px) { ... }
 
-      '2xl': {'min': '1441px'},
+      // '2xl': {'min': '14px'},
       // => @media (min-width: 1536px) { ... }
     },
   },

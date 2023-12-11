@@ -44,24 +44,25 @@ export function Catalogs(){
                 <button className="py-2 px-4 rounded-lg border-2 border-white text-xl text-white font-medium">Explore Xinder</button>
             </div>
             <Swiper
-            slidesPerView={3.5}
+            slidesPerView={3}
+            slidesPerGroup={1}
             spaceBetween={24}
             centeredSlides={true}
             loop={true}
             grabCursor={true}
             threshold={10}
             centeredSlidesBounds={true}
+            style={{maxWidth: '940px'}}
             breakpoints={{
-                320: {
-                    slidesPerView: 1.5,
+                700:{
+                    slidesPerView:2.5,
                 },
-                640: {
-                    slidesPerView: 2.5,
+                1535:{
+                    slidesPerView:2.6,
                 },
-                1024: {
-                    slidesPerView: 2.5,
+                1681:{
+                    slidesPerView:3,
                 },
-
             }}
             >
                 <SwiperSlide style={{opacity: 0.5}} className="rounded-lg border">

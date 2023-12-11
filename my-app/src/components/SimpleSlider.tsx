@@ -3,17 +3,17 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import flowerFirst from "../img/flower-1.png"
-import flowerSecond from "../img/flower-2.png"
-import flowerThird from "../img/flower-3.png"
-import flowerFourth from "../img/flower-4.png"
-import flowerFifth from "../img/flower-5.png"
-import userFirst from "../img/user_1.png"
-import userSecond from "../img/user_2.png"
-import userThird from "../img/user_3.png"
-import userFourth from "../img/user_4.png"
-import userFifth from "../img/user_5.png"
-import navArrow from "../img/chevron-right.png"
+import flowerFirst from "../img/flower-1.png";
+import flowerSecond from "../img/flower-2.png";
+import flowerThird from "../img/flower-3.png";
+import flowerFourth from "../img/flower-4.png";
+import flowerFifth from "../img/flower-5.png";
+import userFirst from "../img/user_1.png";
+import userSecond from "../img/user_2.png";
+import userThird from "../img/user_3.png";
+import userFourth from "../img/user_4.png";
+import userFifth from "../img/user_5.png";
+import navArrow from "../img/chevron-right.png";
 import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
 function SwapBtn() {
     const swiper = useSwiper();
@@ -27,12 +27,24 @@ export default function SimpleSlider() {
             spaceBetween={50}
             loop={true}
             grabCursor={true}
+            speed={600}
             style={{
                 transition: 'transform 0.5s ease',
-                width: '100%',
+                maxWidth: '1260px',
             }}
             navigation={{
                 nextEl: '.swiper-button-next',
+            }}
+            breakpoints={{
+                700:{
+                    slidesPerView:3,
+                },
+                1590:{
+                    slidesPerView:3.5,
+                },
+                1681:{
+                    slidesPerView:4,
+                },
             }}
         >
             <SwiperSlide className="bg-white" style={{ width: '25%' }}>
