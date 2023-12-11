@@ -8,6 +8,10 @@ import camel from '../img/camel.png'
 export const arrowRightImg = arrowRight
 export function Categories(){
     const [SeeMore, setSeeMore] = useState(false)
+    const HandleSeeMore = () => {
+        setSeeMore(!SeeMore)
+    }
+    
 
     return(
         <div className="flex flex-col bg-white p-20">
@@ -38,23 +42,23 @@ export function Categories(){
                     </div>
                     <img src={euforia} className='max-w-[236px] min-h-[390px] rounded-md border border-gray-200'></img>
                 </div>
-                {SeeMore &&<div className='rounded-md border border-gray-200 xl:hidden'>
+                <div className={`rounded-md border border-gray-200 xl: ${SeeMore ? 'block' : 'hidden'}`}>
                 <div className='absolute flex px-6 pt-6 pd-16 flex-col'>
                         <p className='text-base z-10 text-white'>Object Design</p>
                         <h2 className='text-2xl z-20 text-white'>Classic Watch</h2>
                     </div>
                     <img src={clock} className='max-w-[236px] min-h-[390px] rounded-md border border-gray-200'></img>
-                </div>}
-                {SeeMore && (<div className='rounded-md border border-gray-200 xl:hidden'>
+                </div>
+                <div className={`rounded-md border border-gray-200 xl: ${SeeMore ? 'block' : 'hidden'}`}>
                 <div className='absolute flex px-6 pt-6 pd-16 flex-col'>
                         <p className='text-base z-10 text-white'>Sculpture</p>
                         <h2 className='text-2xl z-20 text-white'>White Angel</h2>
                     </div>
                     <img src={sculpture} className='max-w-[236px] min-h-[390px] rounded-md border border-gray-200'></img>
-                </div>)}
+                </div>
             </div>
             <div className='flex justify-center mt-6 hidden xl:flex'><button className='border-2 border-rose-700 rounded py-2 px-4 bg-rose-700 text-white font-medium text-xl'
-            onClick={() => setSeeMore(!SeeMore)}>{SeeMore ? 'See Less' : 'See More'}</button></div>
+            onClick={() => HandleSeeMore()}>{SeeMore ? 'See Less' : 'See More'}</button></div>
         </div>
     )
 }

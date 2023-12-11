@@ -1,7 +1,7 @@
 import SolutionsImage from '../img/solut.png'
 export function Solutions(){
     return (
-        <div className="flex flex-row bg-gray-600 p-20 justify-center gap-20">
+        <div className="flex flex-row bg-gray-600 p-20 justify-center gap-20 xl:flex-col-reverse items-center">
             <div className="flex flex-col gap-6 items-start">
                 <h1 className="text-5xl text-white">Best solutions for your demanding collection</h1>
                 <p className="text-lg text-white">Odio vulputate cras vel lacinia turpis volutpat adipiscing.<br></br> Sollicitudin at velit, blandit tempus nunc in.</p>
