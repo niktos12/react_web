@@ -18,7 +18,7 @@ import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
 function SwapBtn() {
     const swiper = useSwiper();
     return <button 
-    className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full p-4 mr-4" onClick={()=> swiper.slideNext()}><img src={navArrow}></img></button>
+    className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full p-4 mr-4 xxs:hidden" onClick={()=> swiper.slideNext()}><img src={navArrow}></img></button>
 }
 export default function SimpleSlider() {
     return (
@@ -36,7 +36,61 @@ export default function SimpleSlider() {
                 nextEl: '.swiper-button-next',
             }}
             breakpoints={{
-                700:{
+                300:{
+                    slidesPerView:1.1,
+                },
+                364:{
+                    slidesPerView:1.14,
+                },
+                377:{
+                    slidesPerView:1.17,
+                },
+                382:{
+                    slidesPerView:1.2,
+                },
+                394:{
+                    slidesPerView:1.25,
+                },
+                403:{
+                    slidesPerView:1.29,
+                },
+                406:{
+                    slidesPerView:1.3,
+                },
+                419:{
+                    slidesPerView:1.35,
+                },
+                425:{
+                    slidesPerView:1.35,
+                },
+                455:{
+                    slidesPerView:1.45,
+                },
+                475:{
+                    slidesPerView:1.55,
+                },
+                501:{
+                    slidesPerView:1.7,
+                },
+                571:{
+                    slidesPerView:1.9,
+                },
+                640:{
+                    slidesPerView:2,
+                },
+                686:{
+                    slidesPerView:2.2,
+                },
+                800:{
+                    slidesPerView:2.6,
+                },
+                900:{
+                    slidesPerView:2.2,
+                },
+                1060:{
+                    slidesPerView:2.5,
+                },
+                1265:{
                     slidesPerView:3,
                 },
                 1590:{
@@ -47,9 +101,9 @@ export default function SimpleSlider() {
                 },
             }}
         >
-            <SwiperSlide className="bg-white" style={{ width: '25%' }}>
+            <SwiperSlide className="bg-white rounded-t-lg" style={{ width: '25%' }}>
                 <img src={flowerFirst} className="rounded-t-lg"></img>
-                    <div className="flex flex-row p-4 items-start gap-2">
+                    <div className="flex flex-row p-4 items-start gap-2 rounded-b-lg">
                         <img src={userFirst} className="rounded-full"></img>
                         <div className="flex flex-col">
                         <p className="text-gray-900">Flower Decorations</p>
@@ -58,9 +112,9 @@ export default function SimpleSlider() {
                     </div>
 
             </SwiperSlide>
-            <SwiperSlide className="bg-white" style={{ width: '25%' }}>
+            <SwiperSlide className="bg-white rounded-t-lg" style={{ width: '25%' }}>
                 <img src={flowerSecond} className="rounded-t-lg"></img>
-                <div className="flex flex-row p-4 items-start gap-2">
+                <div className="flex flex-row p-4 items-start gap-2 rounded-b-lg">
                         <img src={userSecond} className="rounded-full"></img>
                         <div className="flex flex-col">
                         <p className="text-gray-900">Flower Decorations</p>
@@ -68,9 +122,9 @@ export default function SimpleSlider() {
                     </div>
                     </div>
             </SwiperSlide>
-            <SwiperSlide className="bg-white" style={{ width: '25%' }}>
+            <SwiperSlide className="bg-white rounded-t-lg" style={{ width: '25%' }}>
                 <img src={flowerThird} className="rounded-t-lg"></img>
-                <div className="flex flex-row p-4 items-start gap-2">
+                <div className="flex flex-row p-4 items-start gap-2 rounded-b-lg">
                         <img src={userThird} className="rounded-full"></img>
                         <div className="flex flex-col">
                         <p className="text-gray-900">Splash</p>
@@ -78,9 +132,9 @@ export default function SimpleSlider() {
                     </div>
                     </div>
             </SwiperSlide>
-            <SwiperSlide className="bg-white" style={{ width: '25%' }}>
+            <SwiperSlide className="bg-white rounded-t-lg" style={{ width: '25%' }}>
                 <img src={flowerFourth} className="rounded-t-lg"></img>
-                <div className="flex flex-row p-4 items-start gap-2">
+                <div className="flex flex-row p-4 items-start gap-2 rounded-b-lg">
                         <img src={userFourth} className="rounded-full"></img>
                         <div className="flex flex-col">
                         <p className="text-gray-900">Colourful face</p>
@@ -88,9 +142,9 @@ export default function SimpleSlider() {
                     </div>
                     </div>
             </SwiperSlide>
-            <SwiperSlide className="bg-white" style={{ width: '25%' }}>
+            <SwiperSlide className="bg-white rounded-t-lg" style={{ width: '25%' }}>
                 <img src={flowerFifth} className="rounded-t-lg"></img>
-                <div className="flex flex-row p-4 items-start gap-2">
+                <div className="flex flex-row p-4 items-start gap-2 rounded-b-lg">
                         <img src={userFifth} className="rounded-full"></img>
                         <div className="flex flex-col">
                         <p className="text-gray-900">Fence Spying</p>

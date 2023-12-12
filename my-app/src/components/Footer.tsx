@@ -9,7 +9,7 @@ export function Footer(){
         <div className="flex flex-col gap-12 items-center">
             <FooterCatalogs/>
             <div className="bg-gray-600 h-px w-4/5 justify-center flex opacity-20"></div>
-            <div className="flex flex-row justify-between items-center w-4/5">
+            <div className="flex flex-row justify-between items-center w-4/5 xss:flex-col xss:gap-6 xss:items-start">
                 <p className="text-gray-600">@ 2023 Xinder, Inc. All rights reserved.</p>
                 <div className="flex flex-row gap-4">
                     <img src={YoutubeIcon} alt="" />

@@ -6,9 +6,10 @@ import Megaphone from '../img/megaphone.png'
 import Bookmark from '../img/bookmark-empty.png'
 export function Services(){
     return(
-        <div className="flex flex-col justify-center items-center p-20 gap-20">
+        <div className="flex flex-col justify-center items-center p-20 gap-20 lg:py-20 px-4">
             <h1 className='text-gray-900 text-4xl font-bold'>Expanding services</h1>
-            <div className="flex flex-row gap-12 justify-center items-center xl:grid grid-cols-[repeat(3,150px)] xl:">
+            <div className="flex flex-row gap-12 justify-center items-center xl:grid grid-cols-[repeat(3,150px)] 
+            xs:grid-cols-[repeat(2,150px)]">
                 <div className="flex flex-col justify-center items-center">
                     <img src={Trophy} className='w-16 h-16'></img>
                     <p className="text-xl font-medium text-gray-900 xl:text-center">Nibh viverra</p>

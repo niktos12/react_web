@@ -14,12 +14,12 @@ export function Categories(){
     
 
     return(
-        <div className="flex flex-col bg-white p-20">
-            <div className="flex flex-row justify-between mb-6 px-20">
+        <div className="flex flex-col bg-white p-20 lg:py-20 px-4">
+            <div className="flex flex-row justify-between mb-6 px-20 sm:px-4 s:flex-col s:gap-5">
                 <h1 className="text-4xl font-bold">Featured art categories</h1>
                 <a className="flex flex-row gap-4 text-blue-600 font-medium items-center">View All Categories<img src={arrowRight}/></a>
             </div>
-            <div className='flex flex-row gap-6 justify-center xl:grid grid-cols-[repeat(3,236px)]'>
+            <div className='flex flex-row gap-6 justify-center xl:grid grid-cols-[repeat(3,236px)] sm:grid-cols-[repeat(1,236px)]'>
                 <div className='rounded-md border border-gray-200'>
                     <div className='absolute flex px-6 pt-6 pd-16 flex-col'>
                         <p className='text-base z-10 text-white'>Pottery</p>
@@ -28,28 +28,28 @@ export function Categories(){
                     
                     <img src={Vases} className='max-w-[236px] min-h-[390px] rounded-md border border-gray-200'></img>
                 </div>
-                <div className='rounded-md border border-gray-200'>
+                <div className={`rounded-md border border-gray-200 flex sm: ${SeeMore ? 'block' : 'hidden'} 2xl:flex`}>
                 <div className='absolute flex px-6 pt-6 pd-16 flex-col'>
                         <p className='text-base z-10 text-white'>Oil Painting</p>
                         <h2 className='text-2xl z-20  text-white'>Camel Portrait</h2>
                     </div>
                     <img src={camel} className='max-w-[236px] min-h-[390px] rounded-md border border-gray-200'></img>
                 </div>
-                <div className='rounded-md border border-gray-200'>
+                <div className={`rounded-md border border-gray-200 flex sm: ${SeeMore ? 'block' : 'hidden'} 2xl:flex`}>
                 <div className='absolute flex px-6 pt-6 pd-16 flex-col'>
                         <p className='text-base z-10 text-white'>Abstract Painting</p>
                         <h2 className='text-2xl z-20 text-white'>Euforia </h2>
                     </div>
                     <img src={euforia} className='max-w-[236px] min-h-[390px] rounded-md border border-gray-200'></img>
                 </div>
-                <div className={`rounded-md border border-gray-200 xl: ${SeeMore ? 'block' : 'hidden'}`}>
+                <div className={`rounded-md border border-gray-200 flex xl: ${SeeMore ? 'block' : 'hidden'} 2xl:flex`}>
                 <div className='absolute flex px-6 pt-6 pd-16 flex-col'>
                         <p className='text-base z-10 text-white'>Object Design</p>
                         <h2 className='text-2xl z-20 text-white'>Classic Watch</h2>
                     </div>
                     <img src={clock} className='max-w-[236px] min-h-[390px] rounded-md border border-gray-200'></img>
                 </div>
-                <div className={`rounded-md border border-gray-200 xl: ${SeeMore ? 'block' : 'hidden'}`}>
+                <div className={`rounded-md border border-gray-200 flex xl: ${SeeMore ? 'block' : 'hidden'} 2xl:flex`}>
                 <div className='absolute flex px-6 pt-6 pd-16 flex-col'>
                         <p className='text-base z-10 text-white'>Sculpture</p>
                         <h2 className='text-2xl z-20 text-white'>White Angel</h2>

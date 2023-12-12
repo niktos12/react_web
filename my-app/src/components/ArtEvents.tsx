@@ -9,24 +9,24 @@ export function ArtEvents(){
         setMore(!More)
     }
     return(
-        <div className="flex flex-col p-20 gap-6">
-            <div className="flex flex-row justify-between">
+        <div className="flex flex-col p-20 gap-6 lg:py-20 px-4">
+            <div className="flex flex-row justify-between s:flex-col s:gap-5">
                 <h1 className="text-4xl font-bold text-gray-900">Art events</h1>
                 <a className="text-blue-600 flex flex-row items-center text-base font-medium gap-4">Explore All Events<img src={arrowRightImg}></img></a>
             </div>
             <div className="flex flex-row gap-6 justify-center xl:flex-col xl:items-center">
-                <div className={`flex flex-col`}>
-                    <img src={FirstEvent} className="xl:max-w-[411px]"></img>
+                <div className={`flex flex-col xl:items-center`}>
+                    <img src={FirstEvent} className="xl:max-w-[411px] xss:w-[300px]"></img>
                     <h2 className="text-2xl font-bold text-gray-900 mt-6 mb-2">Wild Horse Event</h2>
                     <p className="text-lg font-normal">Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
                 </div>
-                <div className={`flex flex-col xl:${More ? 'block' : 'hidden'}`}>
-                    <img src={SecondEvent} className="xl:max-w-[411px]"></img>
+                <div className={`flex xl: ${More ? 'block' : 'hidden'} xl:items-center 2xl:flex flex-col`}>
+                    <img src={SecondEvent} className="xl:max-w-[411px] xss:w-[300px]"></img>
                     <h2 className="text-2xl font-bold text-gray-900 mt-6 mb-2">Great Colors</h2>
                     <p className="text-lg font-normal">Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
                 </div>
-                <div className={`flex flex-col xl:${More ? 'block' : 'hidden'}`}>
-                    <img src={ThirdEvent} className="xl:max-w-[411px]"></img>
+                <div className={`flex xl: ${More ? 'block' : 'hidden'} xl:items-center 2xl:flex flex-col`}>
+                    <img src={ThirdEvent} className="xl:max-w-[411px] xss:w-[300px]"></img>
                     <h2 className="text-2xl font-bold text-gray-900 mt-6 mb-2">Happy Father’s Day</h2>
                     <p className="text-lg font-normal">Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
                 </div>

@@ -6,7 +6,8 @@ import HeadsetIcon from '../img/headset.png'
 import WorldIcon from '../img/world.png'
 export function FooterCatalogs(){
     return(
-        <div className='px-20 pt-12 flex flex-row justify-center gap-16'>
+        <div className='px-20 pt-12 flex flex-row justify-center gap-16
+        lg:grid grid-cols-[repeat(3,156px)] special-fo:px-4 special-fo:grid-cols-[repeat(2,156px)] xxs:grid-cols-[repeat(1,156px)] px-4'>
             <div className='flex flex-col gap-6'>
                 <a className='flex flex-row items-center gap-2 font-medium text-gray-600' href='#'><img src={WorldIcon}></img>Categories</a>
                 <a href="#" className='font-normal text-gray-600'>User Interface</a>
